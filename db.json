@@ -1,39 +1,63 @@
 {
-    "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "bg": "https://www.einerd.com.br/wp-content/uploads/2019/09/One-Piece-capa-890x466.png",
+    "title": "Quiz OnePiece #AluraQuiz",
+    "description": "Um quiz rápido sobre o mundo de One Piece",
     "questions": [
         {
-            "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-            "title": "Como fazer um seletor por id via CSS?",
-            "description": "Essa é pra aquecer",
-            "answer": 2,
+            "image": "https://i.pinimg.com/originals/fc/11/d6/fc11d66badf688f62df85aba31fa361d.gif",
+            "title": "Qual foi o primeiro companheiro a entrar no bando do Chapéu de Palha?",
+            "description": "Pergunta fácil em!",
+            "answer": 0,
             "alternatives": [
-                ".elemento",
-                "*elemento",
-                "#elemento",
-                "%elemento"
+                "Zoro",
+                "Nami",
+                "Usopp"
             ]
         },
         {
-            "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-            "title": "Como fazer um background gradiente com css?",
-            "description": "Faz tempo em haha",
-            "answer": 0,
+            "image": "https://media0.giphy.com/media/1qGaYAEAk7eOA/giphy.gif",
+            "title": "Qual destes integrantes do bando do Chapéu de Palha é o médico?",
+            "description": "E agora? Você sabe?",
+            "answer": 2,
             "alternatives": [
-                "background: linear-gradient(#e66465, #9198e5);",
-                "background: gradient(#e66465, #9198e5);"
+                "Sanji",
+                "Brook",
+                "Chopper"
+            ]
+        },
+        {
+            "image": "https://media0.giphy.com/media/S5dZskQRBojYY/200w.webp?cid=ecf05e474wuits1kahq7tp6m24q4u4096qcj7uv4bm42k3iz&rid=200w.webp",
+            "title": "Qual destes integrantes do bando do Chapéu de Palha é o cozinheiro?",
+            "answer": 1,
+            "alternatives": [
+                "Zoro",
+                "Sanji",
+                "Brook",
+                "Chopper",
+                "Nami"
+            ]
+        },
+        {
+            "image": "https://media4.giphy.com/media/6FUT75miVgVKE/200w.webp?cid=ecf05e474wuits1kahq7tp6m24q4u4096qcj7uv4bm42k3iz&rid=200w.webp",
+            "title": "Qual da ilha que supostamente se encontra o One Piece?",
+            "answer": 1,
+            "alternatives": [
+                "Ohara",
+                "Laugh Tale",
+                "Momoiro",
+                "Jaya"
             ]
         }
     ],
     "external": [
-        ""
+        "https://aluraquiz-css.omariosouto.vercel.app/",
+        "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
     ],
     "theme": {
         "colors": {
-            "primary": "#0d47a1",
-            "secondary": "#29b6f6",
-            "mainBg": "#171B35",
+            "primary": "#222222",
+            "secondary": "#e89c3f",
+            "mainBg": "#213f4e",
             "contrastText": "#FFFFFF",
             "wrong": "#FF5722",
             "success": "#4CAF50"
